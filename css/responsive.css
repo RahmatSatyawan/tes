@@ -1,0 +1,148 @@
+
+/* for Tablets */
+@media all and (max-width: 1000px) {
+    .main-article{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .header-container h1 {
+    font-size: 32px;
+  }
+  .landing-page-container h1 {
+    font-size: 32px;
+  }
+  .main-article-left h1 {
+    font-size: 32px;
+  }
+  .cardteam {
+    flex-wrap: wrap;
+  }
+
+  .cardteam .card {
+      width: 25%;
+      margin: 10px 15px;
+  }
+
+}
+
+/* for Smartphones */
+@media all and (max-width: 670px) {
+  /* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+nav {
+  		height: auto;
+  		border-bottom: 0;
+  		background: #3498db;
+  	}
+  	nav ul {
+  		width: 100%;
+  		display: none;
+  		height: auto;
+  	}
+  	nav li {
+  		width: 100%;
+  		float: none;
+  		display: block;
+  		background: #ffffff;
+  	}
+  	nav li a {
+		border-bottom: 1px solid #f0f0f0;
+		border-right: 1px solid #f0f0f0;
+	}
+  	nav a {
+	  	text-align: left;
+	  	width: 100%;
+	  	text-indent: 25px;
+	  	color: #333333;
+  	}
+  	nav a#pull {
+		display: block;
+		background-color: #3498db;
+		width: 100%;
+		position: relative;
+		color: #ffffff;
+	}
+	nav a#pull:after {
+		content:"";
+		background: url('img/nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+  footer {
+    text-align: center;
+  }
+  
+  .main-article {
+    text-align: left;
+    width: 100%
+  }
+   
+  .header-container {
+    display: none;
+  }
+
+.menu-icon {
+	color:#FFF;
+	font-size:25px;
+	cursor:pointer;
+	padding:10px 12px;
+	margin-left:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.menu-icon:hover {
+	background-color:rgba(0, 0, 0, 0.1);
+	border-radius:50px;
+}
+    
+  .header-container h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .landing-page-container h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .main-article-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-article-left {
+    margin-top: 5vw;
+  }
+  
+  .landing-page-container p {
+
+  }
+  .main-article-left p {
+    width: 100%;
+    font-size: 3vw;
+    line-height: 3vw;
+  }
+ 
+  .cardteam {
+    flex-direction: column;
+  }
+
+  .cardteam .card {
+      width: 75%;
+      margin: 10px auto;
+  }
+  
+}
